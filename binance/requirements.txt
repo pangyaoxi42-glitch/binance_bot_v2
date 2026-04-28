@@ -1,0 +1,8 @@
+ccxt==4.2.82
+pandas
+pandas-ta
+numpy
+openai
+httpx
+python-dotenv==1.0.1
+aiofiles

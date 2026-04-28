@@ -1,0 +1,13 @@
+services:
+  deep_sniper:
+    build: .
+    container_name: deep_sniper_bot
+    restart: always
+    env_file:
+      - .env
+    volumes:
+      - ./data:/root/binance/data  # 状态机持久化挂载
+    deploy:
+      resources:
+        limits:
+          memory: 400M  # 严格锁死最大内存，给系统和 3x-ui 留足空间
