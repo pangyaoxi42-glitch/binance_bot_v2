@@ -1,0 +1,64 @@
+2026-04-27 23:27:28 | DB           | 数据库已连接并初始化
+2026-04-27 23:27:28 | STRATEGY     | V2 深空狙击手已点火 — 多周期确定性信号 + AI守门人
+2026-04-27 23:27:39 | ORDER        | 获取余额失败: binance GET https://binance-sg-gateway.vercel.app/api/v3/exchangeInfo
+2026-04-27 23:28:04 | STRATEGY     | 数据采集异常: binance GET https://binance-sg-gateway.vercel.app/api/v3/exchangeInfo
+2026-04-27 23:28:45 | ORDER        | 获取余额失败: binance GET https://binance-sg-gateway.vercel.app/api/v3/exchangeInfo
+2026-04-27 23:29:10 | STRATEGY     | 数据采集异常: binance GET https://binance-sg-gateway.vercel.app/api/v3/exchangeInfo
+2026-04-27 23:29:45 | BALANCE      | daily 快照 | 净值 $313,829 | Sharpe 0.00 | MDD 0.0% | 胜率 0.0%
+2026-04-27 23:29:45 | STRATEGY     | 下跌趋势 ETH/USDT: 下跌趋势 | ROC_9=-2.06 < -2.0 & close < EMA50
+2026-04-27 23:29:45 | STRATEGY     | 下跌趋势 SOL/USDT: 下跌趋势 | ROC_9=-2.03 < -2.0 & close < EMA50
+2026-04-27 23:29:45 | STRATEGY     | 市场下跌趋势，保持空仓观望
+2026-04-27 23:30:50 | STRATEGY     | 无入场信号 | BTC/USDT=-1.12 | ETH/USDT=-1.91 | SOL/USDT=-1.82
+2026-04-27 23:31:55 | STRATEGY     | 无入场信号 | BTC/USDT=-0.95 | ETH/USDT=-1.68 | SOL/USDT=-1.73
+2026-04-27 23:32:59 | STRATEGY     | 无入场信号 | BTC/USDT=-1.00 | ETH/USDT=-1.71 | SOL/USDT=-1.69
+2026-04-27 23:34:01 | STRATEGY     | 无入场信号 | BTC/USDT=-1.02 | ETH/USDT=-1.76 | SOL/USDT=-1.77
+2026-04-27 23:35:04 | STRATEGY     | 无入场信号 | BTC/USDT=-0.87 | ETH/USDT=-1.69 | SOL/USDT=-1.70
+2026-04-27 23:36:08 | STRATEGY     | 无入场信号 | BTC/USDT=-0.88 | ETH/USDT=-1.73 | SOL/USDT=-1.73
+2026-04-27 23:37:12 | STRATEGY     | 无入场信号 | BTC/USDT=-0.99 | ETH/USDT=-1.81 | SOL/USDT=-1.78
+2026-04-27 23:38:15 | STRATEGY     | 无入场信号 | BTC/USDT=-0.91 | ETH/USDT=-1.77 | SOL/USDT=-1.74
+2026-04-27 23:39:19 | STRATEGY     | 无入场信号 | BTC/USDT=-0.91 | ETH/USDT=-1.76 | SOL/USDT=-1.71
+2026-04-27 23:40:23 | STRATEGY     | 无入场信号 | BTC/USDT=-0.88 | ETH/USDT=-1.71 | SOL/USDT=-1.71
+2026-04-27 23:41:27 | STRATEGY     | 无入场信号 | BTC/USDT=-0.92 | ETH/USDT=-1.68 | SOL/USDT=-1.78
+2026-04-27 23:42:31 | STRATEGY     | 无入场信号 | BTC/USDT=-0.85 | ETH/USDT=-1.66 | SOL/USDT=-1.74
+2026-04-27 23:43:35 | STRATEGY     | 无入场信号 | BTC/USDT=-0.87 | ETH/USDT=-1.72 | SOL/USDT=-1.80
+2026-04-27 23:44:40 | STRATEGY     | 无入场信号 | BTC/USDT=-0.88 | ETH/USDT=-1.66 | SOL/USDT=-1.80
+2026-04-27 23:45:52 | ORDER        | 获取余额失败: binance GET https://binance-sg-gateway.vercel.app/api/v3/account?timestamp=1777304739057&recvWindow=10000&signature=5962567e4e513108e63d6319ed7e7cbd4c9f0bc63249f7ab2c13d8b9fb8aaff5
+2026-04-27 23:46:01 | STRATEGY     | 数据采集异常: binance GET https://binance-sg-gateway.vercel.app/api/v3/account?timestamp=1777304739057&recvWindow=10000&signature=5962567e4e513108e63d6319ed7e7cbd4c9f0bc63249f7ab2c13d8b9fb8aaff5
+2026-04-27 23:46:33 | ORDER        | 获取余额失败: binance GET https://binance-sg-gateway.vercel.app/api/v3/account?timestamp=1777304789245&recvWindow=10000&signature=d9211de5c94a2a94e15f295373754666bcdeb8262ce65332a8337b4659f00285
+2026-04-27 23:46:44 | STRATEGY     | 数据采集异常: binance GET https://binance-sg-gateway.vercel.app/api/v3/account?timestamp=1777304789245&recvWindow=10000&signature=d9211de5c94a2a94e15f295373754666bcdeb8262ce65332a8337b4659f00285
+2026-04-27 23:47:16 | ORDER        | 获取余额失败: binance GET https://binance-sg-gateway.vercel.app/api/v3/account?timestamp=1777304832183&recvWindow=10000&signature=4b7c1664066ff37d8e6509a0d6aeef14f5ec3a3e6a1fb661b6a8e10be1cc7852
+2026-04-27 23:47:27 | STRATEGY     | 数据采集异常: binance GET https://binance-sg-gateway.vercel.app/api/v3/account?timestamp=1777304832183&recvWindow=10000&signature=4b7c1664066ff37d8e6509a0d6aeef14f5ec3a3e6a1fb661b6a8e10be1cc7852
+2026-04-27 23:48:00 | ORDER        | 获取余额失败: binance GET https://binance-sg-gateway.vercel.app/api/v3/account?timestamp=1777304875718&recvWindow=10000&signature=4d255d1887d9ea01cb34ccf073b82eb9762f2b15fb36fb454dc38e80a9059659
+2026-04-27 23:48:10 | STRATEGY     | 数据采集异常: binance GET https://binance-sg-gateway.vercel.app/api/v3/account?timestamp=1777304875718&recvWindow=10000&signature=4d255d1887d9ea01cb34ccf073b82eb9762f2b15fb36fb454dc38e80a9059659
+2026-04-27 23:48:43 | ORDER        | 获取余额失败: binance GET https://binance-sg-gateway.vercel.app/api/v3/account?timestamp=1777304918749&recvWindow=10000&signature=51138eeebdd40d3d1df6647f1746fccab1a558c072208a64c7d3e0c2cf61caae
+2026-04-27 23:48:53 | STRATEGY     | 数据采集异常: binance GET https://binance-sg-gateway.vercel.app/api/v3/account?timestamp=1777304918749&recvWindow=10000&signature=51138eeebdd40d3d1df6647f1746fccab1a558c072208a64c7d3e0c2cf61caae
+2026-04-27 23:49:25 | ORDER        | 获取余额失败: binance GET https://binance-sg-gateway.vercel.app/api/v3/account?timestamp=1777304960952&recvWindow=10000&signature=0eb179f07860f08ca0f3fda2361172b2e082f971490eeced379768f2a653668b
+2026-04-27 23:49:38 | STRATEGY     | 数据采集异常: binance GET https://binance-sg-gateway.vercel.app/api/v3/account?timestamp=1777304960952&recvWindow=10000&signature=0eb179f07860f08ca0f3fda2361172b2e082f971490eeced379768f2a653668b
+2026-04-27 23:50:11 | ORDER        | 获取余额失败: binance GET https://binance-sg-gateway.vercel.app/api/v3/account?timestamp=1777305006127&recvWindow=10000&signature=160d22694f3451f3837d63f5bca26776ab3d6d62cdefb35862d72f867ff61080
+2026-04-27 23:50:21 | STRATEGY     | 数据采集异常: binance GET https://binance-sg-gateway.vercel.app/api/v3/account?timestamp=1777305006127&recvWindow=10000&signature=160d22694f3451f3837d63f5bca26776ab3d6d62cdefb35862d72f867ff61080
+2026-04-27 23:50:55 | ORDER        | 获取余额失败: binance GET https://binance-sg-gateway.vercel.app/api/v3/account?timestamp=1777305049379&recvWindow=10000&signature=d6e3527bb2c5dcf5e45cbf03d09a3f29b732428684b8d7c18038f77a22cafc59
+2026-04-27 23:51:04 | STRATEGY     | 数据采集异常: binance GET https://binance-sg-gateway.vercel.app/api/v3/account?timestamp=1777305049379&recvWindow=10000&signature=d6e3527bb2c5dcf5e45cbf03d09a3f29b732428684b8d7c18038f77a22cafc59
+2026-04-27 23:51:37 | ORDER        | 获取余额失败: binance GET https://binance-sg-gateway.vercel.app/api/v3/account?timestamp=1777305092038&recvWindow=10000&signature=fb30aa287ba2386d6331577da9142dd0d197ecc3ab7bc61c3834f5d5a99a7071
+2026-04-27 23:51:46 | STRATEGY     | 数据采集异常: binance GET https://binance-sg-gateway.vercel.app/api/v3/account?timestamp=1777305092038&recvWindow=10000&signature=fb30aa287ba2386d6331577da9142dd0d197ecc3ab7bc61c3834f5d5a99a7071
+2026-04-27 23:52:19 | ORDER        | 获取余额失败: binance GET https://binance-sg-gateway.vercel.app/api/v3/account?timestamp=1777305134756&recvWindow=10000&signature=a56eada951c99aec51620c32b44d2f0d08b7dea57e12a31512dca71313ead330
+2026-04-27 23:52:29 | STRATEGY     | 数据采集异常: binance GET https://binance-sg-gateway.vercel.app/api/v3/account?timestamp=1777305134756&recvWindow=10000&signature=a56eada951c99aec51620c32b44d2f0d08b7dea57e12a31512dca71313ead330
+2026-04-27 23:53:02 | ORDER        | 获取余额失败: binance GET https://binance-sg-gateway.vercel.app/api/v3/account?timestamp=1777305177297&recvWindow=10000&signature=fef056549a49e0a42ba68cfe810b8d7e122169b6c4efffef55d3bd5b6457ed4c
+2026-04-27 23:53:12 | STRATEGY     | 数据采集异常: binance GET https://binance-sg-gateway.vercel.app/api/v3/account?timestamp=1777305177297&recvWindow=10000&signature=fef056549a49e0a42ba68cfe810b8d7e122169b6c4efffef55d3bd5b6457ed4c
+2026-04-27 23:53:45 | ORDER        | 获取余额失败: binance GET https://binance-sg-gateway.vercel.app/api/v3/account?timestamp=1777305220455&recvWindow=10000&signature=ea450f9bfa9610ce1efb956c5d7ebdeec530e817e4e35e3613023855bddf1a6f
+2026-04-27 23:53:55 | STRATEGY     | 数据采集异常: binance GET https://binance-sg-gateway.vercel.app/api/v3/account?timestamp=1777305220455&recvWindow=10000&signature=ea450f9bfa9610ce1efb956c5d7ebdeec530e817e4e35e3613023855bddf1a6f
+2026-04-27 23:54:28 | ORDER        | 获取余额失败: binance GET https://binance-sg-gateway.vercel.app/api/v3/account?timestamp=1777305263512&recvWindow=10000&signature=a37829ea70115742794c57eaaf25b56947c2a43b6e5a2af33dcc03fa07bddfbf
+2026-04-27 23:54:39 | STRATEGY     | 数据采集异常: binance GET https://binance-sg-gateway.vercel.app/api/v3/account?timestamp=1777305263512&recvWindow=10000&signature=a37829ea70115742794c57eaaf25b56947c2a43b6e5a2af33dcc03fa07bddfbf
+2026-04-27 23:55:12 | ORDER        | 获取余额失败: binance GET https://binance-sg-gateway.vercel.app/api/v3/account?timestamp=1777305306897&recvWindow=10000&signature=0a7c807e2ca5681c202c38b5901d632cb9bc485467dc986afd4dc928cb4fd260
+2026-04-27 23:55:23 | STRATEGY     | 数据采集异常: binance GET https://binance-sg-gateway.vercel.app/api/v3/account?timestamp=1777305306897&recvWindow=10000&signature=0a7c807e2ca5681c202c38b5901d632cb9bc485467dc986afd4dc928cb4fd260
+2026-04-27 23:55:57 | STRATEGY     | 无入场信号 | BTC/USDT=-1.21 | ETH/USDT=-1.98 | SOL/USDT=-1.88
+2026-04-27 23:57:00 | STRATEGY     | 下跌趋势 ETH/USDT: 下跌趋势 | ROC_9=-2.03 < -2.0 & close < EMA50
+2026-04-27 23:57:00 | STRATEGY     | 市场下跌趋势，保持空仓观望
+2026-04-27 23:58:04 | STRATEGY     | 下跌趋势 ETH/USDT: 下跌趋势 | ROC_9=-2.09 < -2.0 & close < EMA50
+2026-04-27 23:58:04 | STRATEGY     | 市场下跌趋势，保持空仓观望
+2026-04-27 23:59:06 | STRATEGY     | 下跌趋势 ETH/USDT: 下跌趋势 | ROC_9=-2.06 < -2.0 & close < EMA50
+2026-04-27 23:59:06 | STRATEGY     | 市场下跌趋势，保持空仓观望
+2026-04-28 00:00:12 | BALANCE      | daily 快照 | 净值 $313,830 | Sharpe 0.00 | MDD 0.0% | 胜率 0.0%
+2026-04-28 00:00:12 | STRATEGY     | 无入场信号 | BTC/USDT=-1.07 | ETH/USDT=-1.78 | SOL/USDT=-1.29
+2026-04-28 00:00:27 | DB           | 数据库已关闭
+2026-04-28 00:00:27 | STRATEGY     | 系统已安全停机
+2026-04-28 00:00:27 | STRATEGY     | 收到中断信号，退出

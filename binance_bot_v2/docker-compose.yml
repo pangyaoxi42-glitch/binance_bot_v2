@@ -1,0 +1,15 @@
+services:
+  sniper:
+    build: .
+    container_name: binance_sniper_v2
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data
+      - ./config:/app/config:ro
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "50m"
+        max-file: "3"
